@@ -1,0 +1,15 @@
+1. Warrior, Knight, Monster 는 체력, 공격력, 방어력이 존재하며 생존 여부를 알 수 있어야 한다.
+2. Knight 는 hardAttack 기능이 있고, 이 기능을 사용하기 위해서는 energy 가 3 필요한다.
+3. Warrior 는 Monster 를 특정 마리수 이상 처치하면 Knight 로 레벨업이 가능하다.
+
+
+프로그램 동작 예시
+Monster 생성
+Monster 아직 살아 있습니다. 체력: 50
+Warrior 가 공격합니다.
+Monster 아직 살아 있습니다. 체력: 41
+Monster 공격합니다.
+Warrior 는 죽었습니다.
+Warrior 는 죽었습니다.
+
+4. Warrior 가 레벨업 하는 반복문 작성

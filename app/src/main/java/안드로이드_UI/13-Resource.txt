@@ -1,0 +1,25 @@
+리소스(Resource)
+- drawable
+    - 이미지
+        - 실제 이미지 파일, xml
+        - 동일한 이미지는 해상도별로 여러장을 준비 할 수 있다.
+            - 휴대폰의 해상도에 맞는 이미지를 사용할 수 있다.
+            - 안드로이드OS가 휴대폰 해상도에 적합한 이미지를 알아서 선택한다.
+- layout
+    - 화면을 구성하는 xml
+- mipmap
+    - 앱 아이콘
+- values
+    - colors
+        - 색 (ex) #FF   FF   FF   FF
+                 투명도  R    G    B
+        - RGB (Red, Green, Blue)
+        - 16진수
+            - 10A 11B 12C 13D 14E 15F
+    - string
+        - 문자열 (자주사용되는)
+
+- 사용방법
+    - @리소스종류/리소스명 -> ex) "@color/david"
+
+

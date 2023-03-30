@@ -1,0 +1,27 @@
+{
+  "id": 1,
+  "name": "홍길동",
+  "is_male": true,
+  "phone": null,
+  "key": [1,2,3,4,5]
+}
+
+
+{
+  "menu": {
+    "id": "file",
+    "value": "File",
+    "popup": {
+      "menuitem": [
+        {
+          "value": "New",
+          "onclick": "CreatNewDoc()"
+        },
+        {
+          "value": "Open",
+          "onclick": "OpenDoc()"
+        }
+      ]
+    }
+  }
+}

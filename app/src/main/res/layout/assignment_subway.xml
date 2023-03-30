@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/subway"
+        android:layout_width="270dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/page_1"/>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@color/facebook"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:src="@drawable/logo_fb2"
+                android:layout_margin="5dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_marginRight="10dp"
+                android:text="|"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"
+                android:textSize="15dp"
+                android:text="페이스북 계정으로 로그인"/>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:background="@color/kakao"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/kakao"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/logo_kt"
+                android:layout_margin="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:text="|"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginRight="17dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="페이스북 계정으로 로그인"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:src="@drawable/arrows"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="회원가입 건너뛰고 레시피 확인하기"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:src="@drawable/sandwich_bg_1"/>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
